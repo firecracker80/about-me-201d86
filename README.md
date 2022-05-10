@@ -1,5 +1,3 @@
-# about-me-201d86
-
 # Project Name: Meet Yari!
 
 ## Author: Yajahira Velazquez
