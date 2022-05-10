@@ -7,49 +7,49 @@ let answerTwo = prompt('Am I married?').toLowerCase();
 
 if(answerTwo ==='yes' || answerTwo === 'y'){
   alert('Not for long!');
-  console.log ('You\'re correct!');
+  // console.log ('You\'re correct!');
 } else if(answerTwo === 'no' || answerTwo === 'n') {
   alert('Hopefully by the end of this year, that\'ll be true.');
-  console.log('Its ok, you\'re not completely wrong.')
+  // console.log('Its ok, you\'re not completely wrong.')
 }
 
 let answerThree = prompt('Was I in the military?').toLowerCase();
 
 if(answerThree === 'yes' || answerThree === 'y') {
   alert('Yup! 17 years! HOOAH!');
-  console.log('Yup! 17 years! HOOAH!');
+  // console.log('Yup! 17 years! HOOAH!');
 } else if(answerThree === 'no' || answerThree === 'n') {
   alert('Whomp, whomp! Proudly served.');
-  console.log('Whomp, whomp! Proudly served.')
+  // console.log('Whomp, whomp! Proudly served.')
 }
 
 let answerFour = prompt('Did I go to medical school?').toLowerCase();
 
 if(answerFour === 'yes' || answerFour === 'y') {
   alert('Sure did! Loved it, unitl question 2 happened.');
-  console.log('Sure did! Loved it, until question 2 happened.');
+  // console.log('Sure did! Loved it, until question 2 happened.');
 } else if(answerFour === 'no' || answerFour === 'n') {
   alert('Let me check your blood sugar, \'cause your vision must be blurry.');
-  console.log('Let me check your blood sugar, \'cause your vision must be blurry.');
+  // console.log('Let me check your blood sugar, \'cause your vision must be blurry.');
 }
 
 let answerFive = prompt('Do I have children?').toLowerCase();
 
 if(answerFive === 'yes' || answerFive === 'y') {
   alert('A boy and a girl...teenagers!');
-  console.log('A boy and a girl...teenagers!');
+  // console.log('A boy and a girl...teenagers!');
 } else if(answerFive === 'no' || answerFive === 'n') {
   alert('Yeah I do!');
-  console.log('Yeah I do!');
+  // console.log('Yeah I do!');
 }
 
 let answerSix = prompt('Did you enjoy this little encounter?').toLowerCase();
 
 if(answerSix === 'yes' || answerSix === 'y') {
   alert('Me too!');
-  console.log('Me too!');
+  // console.log('Me too!');
 } else if(answerSix === 'no' || answerSix === 'n') {
   alert('Well...I\'m not for everyone.');
-  console.log('Well...I\'m not for everyone.')
+  // console.log('Well...I\'m not for everyone.')
 }
 
