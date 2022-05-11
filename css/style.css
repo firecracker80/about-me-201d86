@@ -12,6 +12,15 @@ h1{
   padding-top: 40px;
 }
 
+h2, h3{
+  color: white;
+  font-size: 50px;
+  font-family: cursive;
+  /* float: left; */
+  padding-left: 45px;
+  /* padding-top: 2px; */
+}
+
 img{
   height: 200px;
   /* padding-left: 500px; */
@@ -22,10 +31,42 @@ img{
   margin-top: 40px;
 }
 
+section{
+  float: left;
+  /* border-right: ridge white 5px; */
+  margin: 40px 10px 40px 5px;
+  padding-right: 15px;
+}
+
+section:first-of-type{
+  border-right: ridge white 5px;
+  /* height: 300px; */
+}
+
+/* section:nth-of-type() {
+  padding: 10px 5px 10px 5 px;
+} */
+
 hr{
   width: 80%;
   /* margin: auto; */
   border-top: ridge white;
+  margin-top: 15px;
+}
+
+#work, #education{
+  color: gold;
+  font-size: 20px;
+  font-family: fantasy;
+  /* text-align: left; */
+}
+
+ul{
+  color: white;
+  font-size: 15px;
+  font-family: fantasy;
+  /* padding-left: 30px; */
+  /* margin-left: 15px; */
 }
 
 #mystory{
@@ -35,6 +76,13 @@ hr{
   padding-block: 25px;
   padding-left: 40px;
   padding-right: 40px;
+}
+
+ol li{
+  color: white;
+  font-size: 15px;
+  font-family: fantasy;
+  margin-left: 20px;
 }
 
 footer{
