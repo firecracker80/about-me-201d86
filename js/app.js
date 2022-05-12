@@ -81,23 +81,22 @@ for (let i = 0; i < 4; i++) {
 
 alert('I\'m 41 years young!');
 
-let myArr = ['mexican', 'cuban', 'korean'];
+let myArr = ['mexican', 'steak', 'chinese'];
 for (let i = 0; i < 6; i++) {
   let answerEight = prompt('What is my favorite food?').toLowerCase();
+  for(let j = 0; j < myArr.length; j++)
 
-  if (answerEight == 'mexican') {
-    alert('That\'s right!');
-    // console.log('That\'s right!');
-    score++;
-    {break};
-  } else if (answerEight !== 'mexican') {
-    alert('Whomp! Whomp!');
-    // console.log('Whomp! Whomp!');
-  }
+    if (answerEight === myArr[j]) {
+      alert('That\'s right!');
+      // console.log('That\'s right!');
+      score++;
+      i=6
+      {break};
+    }
 }
 
-alert('I\'m puertorican, but I LOVE MEXICAN FOOD!');
-// console.log('I\'m puertorican, but I LOVE MEXICAN FOOD!');
-alert(score);
-// console.log(score);
 
+alert(`My favorite foods are ${myArr}.`)
+// console.log(`My favorite foods are ${myArr}.`);
+alert(`Your score is ${score}.`);
+// console.log(score);
