@@ -16,15 +16,11 @@ h2, h3{
   color: white;
   font-size: 50px;
   font-family: cursive;
-  /* float: left; */
   padding-left: 45px;
-  /* padding-top: 2px; */
 }
 
 img{
   height: 200px;
-  /* padding-left: 500px; */
-  /* padding-top: 30px; */
   border: double white 5px;
   border-radius: 200px;
   margin-left: 500px;
@@ -33,23 +29,16 @@ img{
 
 section{
   float: left;
-  /* border-right: ridge white 5px; */
   margin: 40px 10px 40px 5px;
   padding-right: 15px;
 }
 
 section:first-of-type{
   border-right: ridge white 5px;
-  /* height: 300px; */
 }
-
-/* section:nth-of-type() {
-  padding: 10px 5px 10px 5 px;
-} */
 
 hr{
   width: 80%;
-  /* margin: auto; */
   border-top: ridge white;
   margin-top: 15px;
 }
@@ -58,15 +47,12 @@ hr{
   color: gold;
   font-size: 20px;
   font-family: fantasy;
-  /* text-align: left; */
 }
 
 ul{
   color: white;
   font-size: 15px;
   font-family: fantasy;
-  /* padding-left: 30px; */
-  /* margin-left: 15px; */
 }
 
 #mystory{
